@@ -1,0 +1,14 @@
+  Operating System: Linux 4.15.0-47-generic #50-Ubuntu SMP Wed Mar 13 10:44:52 UTC 2019 x86_64
+  Processor ID:     x86 Family 6 Model 78 Stepping 3, GenuineIntel
+  Host Name:        rfox-Latitude-5480
+FATAL ERROR in native method: Nativewindow X11 IOError: Display 0x7fd2ac830c60 (:0): Resource temporarily unavailable
+	at sun.awt.X11.XlibWrapper.XSync(Native Method)
+	at sun.awt.X11.XToolkit.XSync(XToolkit.java:1271)
+	at sun.awt.X11.XWM.unshadeKludge(XWM.java:1286)
+	at sun.awt.X11.XDecoratedPeer.handleReparentNotifyEvent(XDecoratedPeer.java:337)
+	at sun.awt.X11.XBaseWindow.dispatchEvent(XBaseWindow.java:1140)
+	at sun.awt.X11.XBaseWindow.dispatchToWindow(XBaseWindow.java:1086)
+	at sun.awt.X11.XToolkit.dispatchEvent(XToolkit.java:502)
+	at sun.awt.X11.XToolkit.run(XToolkit.java:616)
+	at sun.awt.X11.XToolkit.run(XToolkit.java:532)
+	at java.lang.Thread.run(Thread.java:748)
